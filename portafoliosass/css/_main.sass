@@ -1,0 +1,121 @@
+$color-blanco: #fff
+$color-naranja: #F58225
+$color-oscuro: #0B1526
+$color-categoria: #234E92
+.main
+
+    .acercade
+        .contenedor
+            overflow: visible
+            .texto
+                text-align: center
+                .titulo
+                    color: $color-naranja
+                    margin-top: 130px
+                    font-size: 2.1em
+                    font-weight: 600
+                .bienvenido
+                    margin-top: 60px
+                    color: #5A5A5A
+                    font-size: 2.125em
+                    font-weight: 800
+
+                .parrafo
+                    margin-top: 50px
+                    font-size: 1.25em
+                    color: #000
+                    .bold
+                        font-weight: 600
+                .mas
+                    margin-top: 20px
+                    font-size: 1.25em
+                    color: #000
+                    .color-experiencia
+                        color: #E5771E
+                        font-weight: 700
+    .proyectos
+        margin-top: 50px
+        background: linear-gradient(rgba(104, 92, 92, 0.33), rgba(10, 32, 64, .99))
+        padding: 60px 0
+        .contenedor
+            margin: auto
+            overflow: hidden
+            .titulodos
+                color: #234E92
+                font-size: 2.1em
+                font-weight: 600
+                margin: auto
+                text-align: center
+            .contenedor-proyectos
+                margin-top: 50px
+                display: flex
+                flex-direction: rows
+                justify-content: space-between
+                flex-wrap: wrap
+                .proyecto
+                    width: 23%
+                    .thumb
+                        width: 100%
+                        img
+                            width: 100%
+                            vertical-align: top
+                            border-radius: 10px
+                            opacity: 70%
+
+                            &:hover
+                                opacity: 100%
+                                transition-duration: 1s
+                    .descripcion
+                        margin-top: 25px
+                        margin-bottom: 25px
+                        text-align: center
+                        .nombre
+                            color: $color-oscuro
+                            font-size: 1.5625em
+                            font-weight: 600
+                        .categoria
+                            color: $color-categoria
+                            font-size: 1.125em
+                            font-weight: 600
+                            margin-top: 15px
+
+    /* tecnologias */
+    .tecnologias
+        .contenedor
+            margin: auto
+            overflow: hidden
+            text-align: center
+            .titulo
+                color: $color-naranja
+                margin-top: 50px
+                font-size: 2em
+                font-weight: 600
+            .contenedor-tecnologias
+                margin-top: 50px
+                display: flex
+                flex-direction: rows
+                justify-content: space-between
+                flex-wrap: wrap
+
+                margin-bottom: 50px
+                .iconos
+                    .tipo
+                        color: $color-categoria
+                        font-size: 1.12em
+                        font-weight: 600
+
+.fa-html5:before
+    color: #E34F26
+.fa-css3-alt:before
+    color: #002561
+.fa-js:before
+    color: #F7DF1E
+
+.fa-wordpress:before
+    color: #464646
+
+.fa-sass:before
+    color: #CF649A
+
+.fa-bootstrap:before
+    color: #563D7C
